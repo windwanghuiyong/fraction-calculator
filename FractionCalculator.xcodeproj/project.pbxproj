@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8CF8361BCA723E00A5FD7C /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CF8351BCA723E00A5FD7C /* Fraction.m */; };
+		0C8CF8391BCA791B00A5FD7C /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CF8381BCA791B00A5FD7C /* Calculator.m */; };
 		0CB156881BCA4D05009014F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB156871BCA4D05009014F2 /* main.m */; };
 		0CB1568B1BCA4D05009014F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1568A1BCA4D05009014F2 /* AppDelegate.m */; };
 		0CB1568E1BCA4D05009014F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1568D1BCA4D05009014F2 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8CF8341BCA723E00A5FD7C /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		0C8CF8351BCA723E00A5FD7C /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		0C8CF8371BCA791B00A5FD7C /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		0C8CF8381BCA791B00A5FD7C /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		0CB156831BCA4D05009014F2 /* FractionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB156871BCA4D05009014F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CB156891BCA4D05009014F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				0CB1568A1BCA4D05009014F2 /* AppDelegate.m */,
 				0CB1568C1BCA4D05009014F2 /* ViewController.h */,
 				0CB1568D1BCA4D05009014F2 /* ViewController.m */,
+				0C8CF8341BCA723E00A5FD7C /* Fraction.h */,
+				0C8CF8351BCA723E00A5FD7C /* Fraction.m */,
+				0C8CF8371BCA791B00A5FD7C /* Calculator.h */,
+				0C8CF8381BCA791B00A5FD7C /* Calculator.m */,
 				0CB1568F1BCA4D05009014F2 /* Main.storyboard */,
 				0CB156921BCA4D05009014F2 /* Assets.xcassets */,
 				0CB156941BCA4D05009014F2 /* LaunchScreen.storyboard */,
@@ -202,11 +212,12 @@
 		0CB1567B1BCA4D05009014F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = wanghuiyong;
 				TargetAttributes = {
 					0CB156821BCA4D05009014F2 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = S73U89V5U9;
 					};
 					0CB1569B1BCA4D05009014F2 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -273,6 +284,8 @@
 				0CB1568E1BCA4D05009014F2 /* ViewController.m in Sources */,
 				0CB1568B1BCA4D05009014F2 /* AppDelegate.m in Sources */,
 				0CB156881BCA4D05009014F2 /* main.m in Sources */,
+				0C8CF8361BCA723E00A5FD7C /* Fraction.m in Sources */,
+				0C8CF8391BCA791B00A5FD7C /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +353,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -363,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -383,8 +398,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = FractionCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weifeng.FractionCalculator;
@@ -422,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = FractionCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weifeng.FractionCalculator;
@@ -496,6 +515,7 @@
 				0CB156B21BCA4D05009014F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CB156B31BCA4D05009014F2 /* Build configuration list for PBXNativeTarget "FractionCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +524,7 @@
 				0CB156B51BCA4D05009014F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CB156B61BCA4D05009014F2 /* Build configuration list for PBXNativeTarget "FractionCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +533,7 @@
 				0CB156B81BCA4D05009014F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
